@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         textView1.setText("Text View yang baru tidak perlu untuk di cash pda Find View by ID.");
         button1.setOnClickListener(e ->{
             textView1.setText("Hello From Java Biasa");
+
         });
         button2.setOnClickListener(e -> {
             Car car1 = new Car("Mas Bagus Winarno");
